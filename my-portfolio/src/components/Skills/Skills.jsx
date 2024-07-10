@@ -62,6 +62,7 @@ function SkillSet() {
   ];
 
   return (
+    <section>
     <div className="skills-wrapper">
       <div className="skills-wrapper-header">Skills</div>
       <div className="skills-wrapper-content">
@@ -82,6 +83,7 @@ function SkillSet() {
         ))}
       </div>
     </div>
+    </section>
   );
 }
 

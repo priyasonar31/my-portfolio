@@ -1,0 +1,25 @@
+.experience-container {
+    padding: 3rem;
+
+    &-content {
+        &-card {
+            padding: 2rem;
+            border: 1px solid white;
+            border-radius: 22px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+.react-multiple-carousel__arrow--left,
+.react-multiple-carousel__arrow--right {
+    background-color: rgba(197, 115, 230, 0.883);
+}
+
+.react-multiple-carousel__arrow--left,
+.react-multiple-carousel__arrow--right:hover {
+    transform: scale(1.05);
+    background-color: rgba(197, 115, 230, 0.883);
+    border: 2.2px solid rgba(197, 115, 230, 0.883);
+}
