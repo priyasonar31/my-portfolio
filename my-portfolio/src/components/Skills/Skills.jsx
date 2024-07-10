@@ -62,9 +62,9 @@ function SkillSet() {
   ];
 
   return (
-    <section>
+    <section  id="skills">
     <div className="skills-wrapper">
-      <div className="skills-wrapper-header">Skills</div>
+      <h2 className="header">Skills</h2>
       <div className="skills-wrapper-content">
         {skills.map((icon, index) => (
           <div title={icon.label} className="skills-wrapper-content-card">

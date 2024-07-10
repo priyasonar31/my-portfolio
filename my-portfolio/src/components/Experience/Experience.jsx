@@ -60,10 +60,8 @@ export const Experience = () => {
   };
 
   return (
-    <section className="experience-container">
-      <h5 className="header">Work Experience</h5>
-      <br />
-      <br />
+    <section id="experience" className="experience-container">
+      <h2  className="header">Work Experience</h2>
       <div className="experience-container-content">
         <Carousel
           responsive={responsive}

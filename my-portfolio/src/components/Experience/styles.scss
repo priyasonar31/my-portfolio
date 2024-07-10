@@ -1,6 +1,9 @@
 .experience-container {
-    padding: 3rem;
-
+    padding: 5rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
     &-content {
         &-card {
             padding: 2rem;

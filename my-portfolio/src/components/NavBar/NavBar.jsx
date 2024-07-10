@@ -1,44 +1,35 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { useState } from "react";
-import { BrowserRouter as Router } from "react-router-dom";
+import React from "react";
+import { Link } from 'react-scroll'
 import "./style.scss";
 
 export const NavBar = () => {
-  const [activeNav, setActiveNav] = useState("home");
-  const onUpdateActiveNav = (nav) => setActiveNav(nav);
-
   return (
-    <>
       <nav className="nav-wrapper">
         <div className="nav-content">
           <div>Logo</div>
-
           <ul>
             <li>
-              <a className="nav-item" href="#">
+              <Link className="nav-item" activeClass="active" to="home" spy={true} smooth={true}>
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="nav-item" href="#">
+              <Link className="nav-item" to="skills" spy={true} smooth={true}>
                 Skills
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="nav-item" href="#">
+            <Link className="nav-item" to="experience" spy={true} smooth={true}>
                 Work Experience
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="nav-item" href="#">
+            <Link className="nav-item" to="contact-me" spy={true} smooth={true}>
                 Contact Me
-              </a>
+              </Link>
             </li>
           </ul>
-
-          {/* <button className="contact-btn">Hire Me</button> */}
         </div>
       </nav>
-    </>
   );
 };
