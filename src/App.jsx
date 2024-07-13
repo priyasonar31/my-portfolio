@@ -5,18 +5,20 @@ import SkillSet from "./components/Skills/Skills";
 import { Experience } from "./components/Experience/Experience";
 import { Contact } from "./components/Contact/Contact";
 import { BoxAnimation } from "./components/BoxAnimation/BoxAnimation";
+import { Footer } from "./components/Footer/Footer";
 
 function App() {
   return (
     <>
-      <NavBar /> 
-  <div className="App">
+      <NavBar />
+      <div className="App">
         <Home />
         <SkillSet />
         <Experience />
-        <Contact /> 
-        < BoxAnimation />
-  </div>
+        <Contact />
+        <Footer />
+        <BoxAnimation />
+      </div>
     </>
   );
 }

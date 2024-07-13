@@ -52,8 +52,8 @@ const Home = () => {
     }
   };
   return (
-    <section className="home-wrapper">
-      <div id="home" className="home-content">
+    <section id="home" className="home-wrapper">
+      <div className="home-content">
         <div className="home-content-greeting">Hello,</div>
         <h2 className="home-content-name">I'm Priya</h2>
         <div className="home-content-auto">{text}</div>
