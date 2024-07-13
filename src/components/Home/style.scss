@@ -3,7 +3,7 @@
         display: flex;
         align-items: center;
         position: relative;
-        padding-top: 1rem;
+        padding: 2rem;
     }
 
     &-content {
@@ -58,13 +58,13 @@
     top: -3rem;
     left: -5rem;
     background: #9a43e7;
-    filter: blur(220px);
+    filter: blur(250px);
 }
 
 .home-wrapper::before {
-    bottom: -1rem;
-    right: -1rem;
-    filter: blur(40px);
+    bottom: 1rem;
+    right: 1rem;
+    filter: blur(60px);
 }
 
 @media (max-width: 1025px) {

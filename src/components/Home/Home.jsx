@@ -50,7 +50,7 @@ const Home = () => {
               <h2 className='home-content-name'>I'm Priya</h2>
               <div className='home-content-auto'>{text}</div> 
               <p>A developer with a knack for turning coffee into code and ideas into reality.</p>
-              <p> I create responsive web apps and efficient back-end systems, making the web a more user-friendly place, one pixel at a time.</p>
+              <p> I create web apps and efficient back-end systems, making the web a more user friendly place, one pixel at a time.</p>
             </div>
             <div className='home-dev-img'>
                 <img src={headerImg} alt='developer' />

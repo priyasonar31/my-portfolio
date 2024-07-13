@@ -6,7 +6,7 @@ export const NavBar = () => {
   return (
     <nav className="nav-wrapper">
       <div className="nav-content">
-        <div>Logo</div>
+        <div className="logo">Priya Sonar</div>
         <ul>
           <li>
             <Link
