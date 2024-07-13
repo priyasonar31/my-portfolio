@@ -8,3 +8,12 @@
     margin-bottom: 1.875rem;
     align-self: center;
 }
+
+@media (max-width: 530px) {
+    .App {
+        padding: 0;
+    }
+    .header {
+        font-size: 2rem;  
+    }
+}

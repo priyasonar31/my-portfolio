@@ -105,3 +105,20 @@
 .lastname {
   width: 49%;
 }
+
+@media (max-width: 768px) {
+
+  .form-wrapper {
+    margin-left: 0;
+    margin-right: 0;
+
+    &-name-wrapper {
+      flex-direction: column;
+    }
+  }
+
+  .firstname,
+  .lastname {
+    width: 100%;
+  }
+}

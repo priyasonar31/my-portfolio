@@ -9,7 +9,7 @@ import { BoxAnimation } from "./components/BoxAnimation/BoxAnimation";
 function App() {
   return (
     <>
-      <NavBar />
+      <NavBar /> 
   <div className="App">
         <Home />
         <SkillSet />
