@@ -10,10 +10,10 @@ function App() {
     <>
       <NavBar />
 <div className="App">
-      <Home />
+       <Home />
       <SkillSet />
       <Experience />
-      <Contact />
+      <Contact /> 
     </div>
     </>
   );

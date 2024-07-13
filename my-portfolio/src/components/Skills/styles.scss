@@ -3,6 +3,8 @@
   flex-direction: column;
   align-items: center;
   gap: 1.5rem;
+  margin-top: 3rem;
+
   &-header {
     font-size: 2.5rem;
     font-weight: 500;
@@ -14,15 +16,16 @@
     gap: 1rem;
     padding: 0 7rem;
     justify-content: center;
+
     &-card {
       border: 1px solid white;
-    border-radius: 5px;
-    padding: 1rem 3rem 1rem 3rem;
-    opacity: 0.93;
-    border: 1.7px solid rgba(200, 137, 230, 0.637);
-    border-radius: 5px;
-    box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137);
-    transition: all 0.4s ease 0s;
+      border-radius: 5px;
+      padding: 1rem 3rem 1rem 3rem;
+      opacity: 0.93;
+      border: 1.7px solid rgba(200, 137, 230, 0.637);
+      border-radius: 5px;
+      box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137);
+      transition: all 0.4s ease 0s;
     }
 
     &-card:hover {
@@ -33,7 +36,6 @@
 
 }
 
-  // @media (max-width: 767px) {
-  
-  // }
-  
+// @media (max-width: 767px) {
+
+// }

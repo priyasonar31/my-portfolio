@@ -1,57 +1,70 @@
 .home {
     &-wrapper {
-        padding: 3rem 2rem 6rem 4rem;
         display: flex;
         align-items: center;
         position: relative;
-
+        padding-top: 1rem;
     }
 
     &-content {
         flex: 1;
+        margin-bottom: 5rem;
 
         h2 {
-            font-size: 2.8rem;
+            font-size: 2rem;
             font-weight: 600;
-            line-height: 5rem;
-            margin-bottom: 1.5rem;
         }
 
+        p {
+            width: 80%;
+            font-size: 0.8rem;
+            font-weight: 400;
+            line-height: 2rem;
+        }
 
-       p {
-        width: 80%;
-        font-size: 1rem;
-        font-weight: 400;
-        line-height: 2rem;
-       }
+        &-auto {
+            height: 5rem;
+            font-size: 3rem;
+            font-weight: 800;
+            background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        &-greeting {
+            font-size: 1rem;
+        }
     }
 
 
     &-dev-img {
-       width: 31rem;
-       transition: all 0.3s ease;
+        width: 27rem;
     }
 }
 
-.home-wrapper::after,.home-wrapper::before {
+.home-wrapper::after,
+.home-wrapper::before {
     content: " ";
-    width: 28rem;
-    height: 28rem;
-    border-radius: 28rem;
-    background: #9a43e7;
+    width: 29rem;
+    height: 18rem;
+    border-radius: 50%;
+    background: #c064cc;
     position: absolute;
     z-index: -1;
-    filter: blur(220px);
+
 }
 
 .home-wrapper::after {
     top: -3rem;
     left: -5rem;
+    background: #9a43e7;
+    filter: blur(220px);
 }
 
 .home-wrapper::before {
-    bottom: -5rem;
-    right: 0rem;
+    bottom: -1rem;
+    right: -1rem;
+    filter: blur(40px);
 }
 
 @media (max-width: 1025px) {
@@ -90,17 +103,18 @@
         text-align: center;
     }
 
-    .home-wrapper::after,.home-wrapper::before {
+    .home-wrapper::after,
+    .home-wrapper::before {
         content: " ";
         width: 18rem;
         height: 18rem;
     }
-    
+
     .home-wrapper::after {
         top: 0rem;
         left: 0rem;
     }
-    
+
     .home-wrapper::before {
         bottom: 2rem;
         right: 0rem;

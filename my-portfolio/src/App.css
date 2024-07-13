@@ -4,7 +4,8 @@
 
 .header {
     font-size: 3rem;
-    font-weight: 400;
+    font-weight: 700;
+    margin-bottom: 1.875rem;
     align-self: center;
 }
 
@@ -20,7 +21,7 @@
     background: white;
     width: 8rem;
     height: 3rem;
-    border-radius: 40px;
+    border-radius: 2.5rem;
     position: absolute;
     left: -47px;
     top: 36px;
@@ -29,45 +30,45 @@
     background: black;
     width: 8rem;
     height: 3rem;
-    border-radius: 40px;
+    border-radius: 2.5rem;
     position: absolute;
-    left: -71px;
-    top: 84px;
+    left: -4.438rem;
+    top: 5.25rem;
 }
 .c3 {
     background: white;
     width: 8rem;
     height: 3rem;
-    border-radius: 40px;
+    border-radius: 2.5px;
     position: absolute;
     left: -60px;
-    top: 132px;
+    top: 8.25rem;
 }
 
 .c4 {
     background: rgb(17, 130, 21);
     width: 8rem;
     height: 3rem;
-    border-radius: 40px;
+    border-radius: 2.5px;
     position: absolute;
-    left: -47px;
-    top: 36px;
+    left: -2.938px;
+    top: 2.25px;
 }
 .c5 {
     background: rgb(183, 11, 11);
     width: 8rem;
     height: 3rem;
-    border-radius: 40px;
+    border-radius: 2.5rem;
     position: absolute;
-    left: -71px;
-    top: 84px;
+    left: -4.438rem;
+    top: 5.25rem;
 }
 .c6 {
     background: rgb(175, 32, 104);
     width: 8rem;
     height: 3rem;
-    border-radius: 40px;
+    border-radius: 2.5rem;
     position: absolute;
-    left: -60px;
-    top: 132px;
+    left: -0.234rem;
+    top: 8.25rem;
 }

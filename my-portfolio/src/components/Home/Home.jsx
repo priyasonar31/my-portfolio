@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import headerImg from "../../assets/dev.svg";
+import headerImg from "../../assets/header.svg";
 import './style.scss';
 
 const Home = () => {
@@ -8,7 +8,7 @@ const Home = () => {
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const [index, setIndex] = useState(1);
-    const toRotate = [ "Web Developer", "Backend Developer", "FullStack Developer" ];
+    const toRotate = [ "Web Developer", "Backend Developer", "Full-Stack Developer"];
     const period = 2000;
   
     useEffect(() => {
@@ -45,16 +45,16 @@ const Home = () => {
     }
     return (
         <section className='home-wrapper'>
-            <div className='home-content'>
-              <h2 id="home">Hi! I'm Priya</h2>
-             {/* <div className='home-content-auto'>{text}</> */}
-              <p>I’m a Full Stack Developer with a knack for turning coffee into code and ideas into reality. I create responsive web apps and efficient back-end systems, making the web a more user-friendly place, one pixel at a time.</p>
+            <div id="home" className='home-content'>
+              <div className='home-content-greeting'>Hello,</div>
+              <h2 className='home-content-name'>I'm Priya</h2>
+              <div className='home-content-auto'>{text}</div> 
+              <p>A developer with a knack for turning coffee into code and ideas into reality.</p>
+              <p> I create responsive web apps and efficient back-end systems, making the web a more user-friendly place, one pixel at a time.</p>
             </div>
-
             <div className='home-dev-img'>
                 <img src={headerImg} alt='developer' />
             </div>
-
         </section>
     );
 }
