@@ -32,3 +32,9 @@
 .icon:hover {
     transform: scale(1.2);
 }
+
+@media (max-width: 390px) {
+  .footer-wrapper p {
+    font-size: 0.8rem;;
+  }
+}

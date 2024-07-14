@@ -166,3 +166,14 @@
     }
 
 }
+
+@media (max-width: 390px) {
+    .home-content {
+        &-greeting {
+            font-size: 1.5rem;
+        }
+        &-auto {
+            height: 6rem;
+        }
+    }
+}

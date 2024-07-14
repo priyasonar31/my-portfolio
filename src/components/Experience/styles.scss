@@ -75,3 +75,13 @@
     }
 
 }
+
+@media (max-width: 435px) {
+    .experience-container {
+        padding: 4rem 1rem 0 1rem;
+
+        &-content {
+            padding: 0;
+        }
+    }
+}
