@@ -9,6 +9,12 @@
     align-self: center;
 }
 
+@media (min-width: 2000px) {
+    .App {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
 @media (max-width: 530px) {
     .App {
         padding: 0;
@@ -17,3 +23,4 @@
         font-size: 2rem;  
     }
 }
+

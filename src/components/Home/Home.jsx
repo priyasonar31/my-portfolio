@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { FaArrowCircleRight } from "react-icons/fa";
 import headerImg from "../../assets/header.svg";
 import "./style.scss";
 
@@ -12,6 +13,8 @@ const Home = () => {
     "Web Developer",
     "Backend Developer",
     "Full-Stack Developer",
+    "Painter",
+    "Artist"
   ];
   const period = 2000;
 
@@ -58,14 +61,18 @@ const Home = () => {
         <h2 className="home-content-name">I'm Priya</h2>
         <div className="home-content-auto">{text}</div>
         <p>
-          A developer with a knack for turning coffee into code and ideas into
-          reality.
+          A developer turning coffee into code and ideas into
+          reality, and brush into art.
         </p>
         <p>
           {" "}
           I create web apps and efficient back-end systems, making the web a
           more user friendly place, one pixel at a time.
         </p>
+        <div className="home-content-3d-wrapper">
+        <div className="home-content-3d-wrapper-msg">Step into my 3D art gallary, created using Three.js, an experience in new dimension</div>
+        <button className="home-content-3d-wrapper-button" onClick={() => window.open("https://priyasonar-3d-art-gallery.netlify.app", "_blank")}>View My Gallery<FaArrowCircleRight size={18} /></button>
+        </div>
       </div>
       <div className="home-dev-img">
         <img src={headerImg} alt="developer" />

@@ -64,6 +64,17 @@ export const NavBar = () => {
           <li>
             <Link
               className="nav-item"
+              to=""
+              spy={true}
+              smooth={true}
+              onClick={()=> { toggleMenu(); window.open("https://priyasonar-3d-art-gallery.netlify.app", "_blank")}}
+            >
+             View My 3D Gallery
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="nav-item"
               to="contact-me"
               spy={true}
               smooth={true}
