@@ -69,7 +69,7 @@ export const NavBar = () => {
               smooth={true}
               onClick={()=> { toggleMenu(); window.open("https://priyasonar-3d-art-gallery.netlify.app", "_blank")}}
             >
-             View My 3D Gallery
+             3D Art Gallery
             </Link>
           </li>
           <li>
