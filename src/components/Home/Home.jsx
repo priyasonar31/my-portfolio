@@ -13,8 +13,7 @@ const Home = () => {
     "Web Developer",
     "Backend Developer",
     "Full-Stack Developer",
-    "Painter",
-    "Artist"
+    "Software Developer"
   ];
   const period = 2000;
 
@@ -54,6 +53,14 @@ const Home = () => {
       setIndex((prevIndex) => prevIndex + 1);
     }
   };
+  const onClickButton = (e) => {
+    e.preventDefault();
+    window.scrollTo({
+      top: document.querySelector("#projects").offsetTop,
+      behavior: "smooth",
+    });
+  }
+
   return (
     <section id="home" className="home-wrapper">
       <div className="home-content">
@@ -70,8 +77,7 @@ const Home = () => {
           more user friendly place, one pixel at a time.
         </p>
         <div className="home-content-3d-wrapper">
-        <div className="home-content-3d-wrapper-msg">Step into my 3D art gallary, created using Three.js, an experience in new dimension</div>
-        <button className="home-content-3d-wrapper-button" onClick={() => window.open("https://priyasonar-3d-art-gallery.netlify.app", "_blank")}>View My Gallery<FaArrowCircleRight size={18} /></button>
+        <button className="home-content-3d-wrapper-button" onClick={onClickButton}>View My Work<FaArrowCircleRight size={18} /></button>
         </div>
       </div>
       <div className="home-dev-img">

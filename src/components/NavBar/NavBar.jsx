@@ -64,12 +64,12 @@ export const NavBar = () => {
           <li>
             <Link
               className="nav-item"
-              to=""
+              to="projects"
               spy={true}
               smooth={true}
-              onClick={()=> { toggleMenu(); window.open("https://priyasonar-3d-art-gallery.netlify.app", "_blank")}}
+              onClick={toggleMenu}
             >
-             3D Art Gallery
+             Projects
             </Link>
           </li>
           <li>

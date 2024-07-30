@@ -3,7 +3,7 @@ import "./styles.scss";
 export const Footer = () => {
   return (
     <footer className="footer-wrapper">
-      <p>Designed & Developed By Priya Sonar</p>
+      <p>Developed By Priya Sonar</p>
       <p>&copy; 2024. All Rights Reserved</p>
       <div className="social-icons">
         <a
