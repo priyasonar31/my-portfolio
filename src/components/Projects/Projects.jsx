@@ -74,12 +74,12 @@ function Projects() {
       <div className="wrapper">
         {projectConfig.map((item) => (
           <div className="card" style={{ background: item.background.card }}>
-            <div
+            {/* <div
               className="image-card"
               style={{ background: item.background.image }}
             >
               <img className="image" src={item.imgLink} alt="" />
-            </div>
+            </div> */}
             <div className="details-wrapper">
               <div className="details">
                 <div className="title">{item.title}</div>
@@ -107,50 +107,8 @@ function Projects() {
           </div>
         ))}
       </div>
-      {/* <div className="card">
-        <div className="image-card">
-          <img className="image" src="./project1.jpg" alt="" />
-        </div>
-        <div className="details-wrapper">
-          <div className="details">
-            <div className="title">3D Art Gallery</div>
-            <div className="desc">
-              Interactive 3D Art Gallery to display art works to display artwork
-              with on-click zoom-in, auto-rotate, and reset functionality
-            </div>
-            <div className="tech-wrapper">
-              <div className="tech-title">Technologies I have used:</div>
-              <div className="capsule-wrapper">
-                {[
-                  {
-                    SvgIcon: SiReact,
-                    text: "React",
-                  },
-                  {
-                    SvgIcon: TbBrandThreejs,
-                    text: "ThreeJs",
-                  },
-                  {
-                    SvgIcon: IoLogoCss3,
-                    text: "Css",
-                  },
-                ].map(({ SvgIcon, text }) => (
-                  <div className="capsule">
-                    <SvgIcon size={22} />
-                    <span className="text">{text}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-          <div className="button">
-            <FaLink size={25} /> <span>Go to 3D Art Gallery</span>
-          </div>
-        </div>
-      </div> */}
     </section>
   );
 }
 export default Projects;
 
-// rgb(8,92,236)

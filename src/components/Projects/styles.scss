@@ -16,15 +16,20 @@
             border-radius: 25px;
             align-items: center;
             flex-wrap: nowrap;
-            justify-content: center;
+            // justify-content: center;
+            width: 100%;
 
             .image-card {
                 padding: 1rem;
                 border-radius: 25px;
+                // width: 41rem;
 
                 .image {
-                    width: 400px;
-                    height: 236px;
+                    // width: 400px;
+                    // height: 236px;
+                    height: 100%;
+                    width: 100%;
+                    object-fit: contain;
                     border-radius: 25px;
                 }
             }
@@ -100,7 +105,8 @@
             .card {
                 flex-wrap: wrap;
             }
-
         }
+
     }
+
 }
