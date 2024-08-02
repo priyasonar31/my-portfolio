@@ -69,7 +69,7 @@ const Home = () => {
         <div className="home-content-auto">{text}</div>
         <p>
           A developer turning coffee into code and ideas into
-          reality, and brush into art.
+          reality.
         </p>
         <p>
           {" "}

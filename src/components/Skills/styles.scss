@@ -25,6 +25,32 @@
       flex-wrap: wrap;
       gap: 1rem;
       justify-content: center;
+      .capsule-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        flex-direction: row;
+          align-items: center;
+          justify-content: center;
+      
+      
+        .capsule {
+          border-radius: 25px;
+          color: white;
+          font-weight: 700;
+          background:  rgba(197, 115, 230, 0.4);
+          padding: 0.4rem 1.5rem;
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+          box-shadow: -4px 5px 12px 3px rgba(89, 4, 168, 0.9);
+          transition: all 0.8s ease 0s;
+      
+          .text {
+            font-weight: 800;
+          }
+        }
+      }
     }
 
     &-card {
@@ -46,29 +72,3 @@
 
 }
 
-.capsule-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
-
-  .capsule {
-    border-radius: 25px;
-    color: white;
-    font-weight: 700;
-    background:  rgba(197, 115, 230, 0.4);
-    padding: 0.4rem 1.5rem;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    box-shadow: -4px 5px 12px 3px rgba(89, 4, 168, 0.9);
-    transition: all 0.8s ease 0s;
-
-    .text {
-      font-weight: 800;
-    }
-  }
-}
