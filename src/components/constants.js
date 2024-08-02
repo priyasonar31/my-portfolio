@@ -27,6 +27,10 @@ import {
   SiJenkins,
   SiSlack,
   SiCircleci,
+  SiSass, 
+  SiAntdesign,
+  SiNetlify ,
+  SiStyledcomponents
 } from "react-icons/si";
 
 export const experienceConfig = [
@@ -95,20 +99,22 @@ export const responsive = {
 
 export const skills = [
   { component: DiReact, label: "React" },
+  { component: DiHtml5, label: "HTML" },
+  { component: DiCss3, label: "CSS" },
   { component: DiJavascript1, label: "JavaScript" },
   { component: DiNodejs, label: "Node.js" },
   { component: SiTypescript, label: "TypeScript" },
   { component: SiSequelize, label: "Sequelize" },
   { component: SiRedux, label: "Redux" },
   { component: DiMysql, label: "MySQL" },
+  { component: SiSass, label: 'SCSS'},
+  { component: SiAntdesign , label: 'Ant Design'},
+  { component: SiStyledcomponents, label: 'Styled Components'},
   { component: SiJest, label: "Jest" },
   { component: SiPostgresql, label: "Postgresql" },
-  { component: DiHtml5, label: "HTML" },
-  { component: DiCss3, label: "CSS" },
   { component: FaAws, label: "AWS" },
 ];
 export const tools = [
-  { component: DiWindows, label: "Windows" },
   { component: SiVisualstudiocode, label: "VS Code" },
   { component: SiPostman, label: "Postman" },
   { component: DiGit, label: "Git" },
@@ -120,4 +126,5 @@ export const tools = [
   { component: SiJenkins, label: "Jenkins" },
   { component: SiCircleci, label: "CircleCI" },
   { component: FaOctopusDeploy, label: "Octopus" },
+  {component: SiNetlify, label: "Netlify"}
 ];
